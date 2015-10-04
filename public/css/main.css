@@ -1,12 +1,20 @@
 body {
-  background-color: white; }
+  background-color: #9E005D; }
 
 .nav {
-  background-color: #9E005D;
-  font-family: "Arial", san-serif;
+  background-color: gray; }
+
+h4 {
   color: white;
-  font-size: 1em;
-  display: inline;
-  padding-left: 50px; }
+  font-family: "Arial", sans-serif;
+  padding-left: 60px;
+  display: inline; }
+
+img {
+  padding-top: 10px; }
+
+@media all and (max-width: 800px) {
+  body {
+    background-color: gray; } }
 
 /*# sourceMappingURL=main.css.map */
