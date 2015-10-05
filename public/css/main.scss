@@ -1,13 +1,15 @@
-@import 'bourbon/bourbon';
+@import 'bourbon/bourbon'
 
 
 $mhtr-red: #9E005D;
 $mhtr-green: #84B02F;
+$white: #FFFFFF;
 
 
 
 body{
-	background-color: $mhtr-red;
+	background-color: $white;
+	font-family: arial
 }
 
 .nav{

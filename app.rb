@@ -13,17 +13,18 @@ end
 
 
 
-get  '/aboutus' do
-	erb :aboutus
+get  '/about' do
+	erb :about
 end
 
-get '/ourmenu' do
-	erb :ourmenu
+get '/menu' do
+	erb :menu
 end
 
-get '/tealist' do
-	erb :tealist
-end
+# get '/tealist' do
+# 	erb :tealist
+# end
+# omitted because it's the same as menu
 	
 get '/location' do
 	erb :location
