@@ -1,0 +1,32 @@
+$mhtr-red: #9E005D;
+$mhtr-green: #84B02F;
+$mhtr-white: #FFFFFF;
+$mhtr-gray: #B3B3B3;
+
+
+nav{
+	background-color: $mhtr-green;
+
+	a{
+		color: $mhtr-white;
+		text-decoration: none;
+	}
+	a:link{
+		color: $mhtr-white;
+		text-decoration: none;
+	}
+	a:visited{
+		color: $mhtr-white;
+		text-decoration: none;
+	}
+	a:hover{
+		color: $mhtr-red;
+		text-decoration: underline;
+	}
+	a:active{
+		color: $mhtr-red;
+		text-decoration: underline;
+	}
+
+	
+}
