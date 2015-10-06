@@ -1,20 +1,17 @@
-@import 'bourbon/bourbon'
-
+@import 'bourbon/bourbon';
+@import 'fontish';
+@import 'navbar';
 
 $mhtr-red: #9E005D;
 $mhtr-green: #84B02F;
-$white: #FFFFFF;
-
+$mhtr-white: #FFFFFF;
+$mhtr-gray: #B3B3B3;
 
 
 body{
-	background-color: $white;
-	font-family: arial
+	background-color: $mhtr-white;
 }
 
-.nav{
-	background-color: gray;
-}
 
 h4{
 	color: white;
@@ -26,6 +23,39 @@ h4{
 img{
 	padding-top: 10px;
 }
+
+/*bourbon ideas (transform)(linear gradient)
+*/
+
+/********FONT SIZES SMALLEST TO LARGEST ***************/
+
+.sizef1{
+	@include fontish(1);
+} /*FOR FOOTER*/
+
+
+
+.sizef2{
+	@include fontish(2);
+} /*FOR NAVBAR*/
+
+
+.sizef3{
+	@include fontish(3);
+}
+.sizef4{
+	@include fontish(4);
+}
+.sizef5{
+	@include fontish(5);
+}
+.sizef6{
+	@include fontish(6);
+}
+
+/********FONT SIZES SMALLEST TO LARGEST ***************/
+
+
 
 
 

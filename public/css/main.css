@@ -1,35 +1,63 @@
-body {
-  background-color: #ffffff;
-   }
+nav {
+  background-color: #84B02F; }
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  nav a:link {
+    color: #FFFFFF;
+    text-decoration: none; }
+  nav a:visited {
+    color: #FFFFFF;
+    text-decoration: none; }
+  nav a:hover {
+    color: #9E005D;
+    text-decoration: underline; }
+  nav a:active {
+    color: #9E005D;
+    text-decoration: underline; }
 
-.nav {
-  background-color: #292914; 
-  color: #ffffff;
-}
+body {
+  background-color: #FFFFFF; }
 
 h4 {
-  color: #ffffff;
+  color: white;
   font-family: "Arial", sans-serif;
   padding-left: 60px;
   display: inline; }
 
-h2 {
-  color: #663300;
-  text-shadow: 2px 2px #CC9900;
-  font-family: "Lucida Console", Monaco, monospace;
-
-}
-
 img {
   padding-top: 10px; }
 
-.ball {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
+/*bourbon ideas (transform)(linear gradient)
+*/
+/********FONT SIZES SMALLEST TO LARGEST ***************/
+.sizef1 {
+  font-family: "Arial", sans-serif;
+  font-size: 12px; }
 
+/*FOR FOOTER*/
+.sizef2 {
+  font-family: "Arial", sans-serif;
+  font-size: 24px; }
+
+/*FOR NAVBAR*/
+.sizef3 {
+  font-family: "Arial", sans-serif;
+  font-size: 36px; }
+
+.sizef4 {
+  font-family: "Arial", sans-serif;
+  font-size: 48px; }
+
+.sizef5 {
+  font-family: "Arial", sans-serif;
+  font-size: 60px; }
+
+.sizef6 {
+  font-family: "Arial", sans-serif;
+  font-size: 72px; }
+
+/********FONT SIZES SMALLEST TO LARGEST ***************/
 @media all and (max-width: 800px) {
   body {
     background-color: gray; } }

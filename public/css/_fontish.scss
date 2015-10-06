@@ -1,0 +1,4 @@
+@mixin fontish($size){
+	font-family: "Arial", sans-serif;
+	font-size: #{$size * 12}px;
+}
