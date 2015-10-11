@@ -28,8 +28,14 @@
 		<div class="row "><!-- row 1 open -->
 
 			<div class="col-xs-12">
-				<a href="/"><img src="/images/mhtr-biglogo.gif"> 
-			</div><!-- /0column1 -->
+				<a href="/">
+					<div class="seek">
+							<img src="/images/mhtr-biglogo.gif"> 
+					</div> <!-- CLOSE SEEK DIV -->
+					<div class="mobilehide">
+						<img src="/images/mhtr-littlelogo.gif">
+					</div> <!-- CLOSE LITTLE LOGO DIVS -->
+			</div><!-- /CLOSE column1 -->
 
 		</div><!-- CLOSE FIRST ROW-->
 
@@ -51,6 +57,10 @@
 				</div><!-- /column2 -->
 				</nav>
 				<%= yield %>
+
+				<footer> 
+					We have 3 locations to serve the Philly areas. Kensington: 9000 Kensington Ave. South Philly: 1000 Washington Ave. West Oak Lane: 7200 Germantown Ave.
+					</footer>
 				</div><!-- /CLOSE CONTAINER-FLUID -->	
 
 	</body>
