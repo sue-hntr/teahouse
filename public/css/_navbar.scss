@@ -7,6 +7,14 @@ $mhtr-gray: #B3B3B3;
 nav{
 	background-color: $mhtr-green;
 
+	h4{
+		color: white;
+		font-family: "Arial", sans-serif;
+		padding-left: 60px;
+		display: inline;
+	}
+
+
 	a{
 		color: $mhtr-white;
 		text-decoration: none;
